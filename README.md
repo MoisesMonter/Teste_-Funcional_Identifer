@@ -51,13 +51,13 @@ pytest
 ```
 O pytest irá procurar por arquivos de teste no diretório do seu projeto e executá-los. Certifique-se de que seus arquivos de teste tenham nomes que correspondam ao padrão de nomenclatura do pytest, como test_*.py. para o projeto: test_identifier.py
 
-
-projeto/
-├── venv/
-├── identifier.py
-├── requirements.txt
-└── test_identifier.py
-
+<br>
+projeto/ <br>
+├── venv/ <br>
+├── identifier.py <br>
+├── requirements.txt <br>
+└── test_identifier.py <br>
+<br>
 
 Após a execução dos testes, você verá os resultados no terminal.
 
