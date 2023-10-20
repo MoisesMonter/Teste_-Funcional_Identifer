@@ -11,6 +11,7 @@ Primeiro, crie um ambiente virtual para isolar as dependências do projeto. O am
 ```bash
 # No terminal, navegue até a pasta do seu projeto
 cd /caminho/para/seu/projeto
+```
 
 # Crie um ambiente virtual chamado "venv" (ou outro nome de sua escolha)
 python -m venv venv
@@ -26,18 +27,18 @@ Agora, ative o ambiente virtual para começar a trabalhar com ele.
 ```bash
 # No Windows:
 venv\Scripts\activate
-
+```
 ```bash
 No macOS e Linux:
 source venv/bin/activate
-
+```
 ## Passo 3: Instalar Dependências
 
 Com o ambiente virtual ativado, você pode instalar as dependências a partir de um arquivo requirements.txt. Certifique-se de que o arquivo requirements.txt esteja localizado no diretório do seu projeto.
 
 ```bash
 pip install -r requirements.txt
-
+```
 Isso instalará todas as dependências listadas no arquivo requirements.txt.
 
 
@@ -47,7 +48,7 @@ Agora que você tem todas as dependências instaladas, você pode executar os te
 
 ```bash
 pytest
-
+```
 O pytest irá procurar por arquivos de teste no diretório do seu projeto e executá-los. Certifique-se de que seus arquivos de teste tenham nomes que correspondam ao padrão de nomenclatura do pytest, como test_*.py. para o projeto: test_identifier.py
 projeto/
 ├── venv/
