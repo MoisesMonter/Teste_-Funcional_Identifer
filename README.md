@@ -52,22 +52,26 @@ pytest
 O pytest irá procurar por arquivos de teste no diretório do seu projeto e executá-los. Certifique-se de que seus arquivos de teste tenham nomes que correspondam ao padrão de nomenclatura do pytest, como test_*.py. para o projeto: test_identifier.py
 
 <br>
-projeto/ <br>
-├── venv/ <br>
-├── test/<br>
-│      ├──  identifier/<br>
-│      │     ├── __init__<br>
-│      │     ├── fake.py<br>
-│      │     ├── identifier.py<br>
-│      │     └── run.py<br>
-|      └── __init__<br>
-├── src/<br>
-│      ├── __init__<br>
-│      ├── test_identifer<br>
-│      └── test_identifer2<br>
-├── identifier.py <br>
-├── requirements.txt <br>
-└── test_identifier.py <br>
+
+Para criar uma representação da estrutura de diretórios em um formato Markdown (.md) que seja facilmente compreensível, você pode usar uma formatação baseada em listas. O Markdown oferece suporte a listas ordenadas e não ordenadas para descrever a hierarquia de diretórios e arquivos. Aqui está a estrutura de diretórios e arquivos no formato Markdown:
+
+markdown
+projeto/
+├── venv/
+├── test/
+│ ├── identifier/
+│ │ ├── init.py
+│ │ ├── fake.py
+│ │ ├── identifier.py
+│ │ └── run.py
+│ └── init.py
+├── src/
+│ ├── init.py
+│ ├── test_identifier
+│ └── test_identifier2
+├── identifier.py
+├── requirements.txt
+└── test_identifier.py
 <br>
 
 Após a execução dos testes, você verá os resultados no terminal.
