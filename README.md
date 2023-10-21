@@ -55,16 +55,16 @@ O pytest irá procurar por arquivos de teste no diretório do seu projeto e exec
 projeto/ <br>
 ├── venv/ <br>
 ├── test/<br>
-      ├── __init__<br>
-      └── identifier/<br>
-            ├── __init__<br>
-            ├── fake.py<br>
-            ├── identifier.py<br>
-            └── run.py<br>
+│      ├──  identifier/<br>
+│      │     ├── __init__<br>
+│      │     ├── fake.py<br>
+│      │     ├── identifier.py<br>
+│      │     └── run.py<br>
+|      └── __init__<br>
 ├── src/<br>
-      ├── __init__<br>
-      ├── test_identifer<br>
-      └── test_identifer2<br>
+│      ├── __init__<br>
+│      ├── test_identifer<br>
+│      └── test_identifer2<br>
 ├── identifier.py <br>
 ├── requirements.txt <br>
 └── test_identifier.py <br>
