@@ -55,7 +55,7 @@ O pytest irá procurar por arquivos de teste no diretório do seu projeto e exec
 
 Para criar uma representação da estrutura de diretórios em um formato Markdown (.md) que seja facilmente compreensível, você pode usar uma formatação baseada em listas. O Markdown oferece suporte a listas ordenadas e não ordenadas para descrever a hierarquia de diretórios e arquivos. Aqui está a estrutura de diretórios e arquivos no formato Markdown:
 
-markdown
+```
 projeto/ <br>
 ├── venv/ <br>
 ├── test/ <br>
@@ -73,7 +73,7 @@ projeto/ <br>
 ├── requirements.txt <br>
 └── test_identifier.py <br>
 <br>
-
+```
 Após a execução dos testes, você verá os resultados no terminal.
 
 ## Desativar o Ambiente Virtual
