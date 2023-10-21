@@ -54,23 +54,22 @@ O pytest irá procurar por arquivos de teste no diretório do seu projeto e exec
 <br>
 
 ```
-projeto/ <br>
-├── venv/ <br>
-├── test/ <br>
-│ ├── identifier/ <br>
-│ │ ├── init.py <br>
-│ │ ├── fake.py <br>
-│ │ ├── identifier.py <br>
-│ │ └── run.py <br>
-│ └── init.py <br>
-├── src/ <br>
-│ ├── init.py <br>
-│ ├── test_identifier <br>
-│ └── test_identifier2 <br>
-├── identifier.py <br>
-├── requirements.txt <br>
-└── test_identifier.py <br>
-<br>
+projeto/ 
+├── venv/ 
+├── test/ 
+│ ├── identifier/ 
+│ │ ├── init.py 
+│ │ ├── fake.py 
+│ │ ├── identifier.py 
+│ │ └── run.py 
+│ └── init.py 
+├── src/ 
+│ ├── init.py 
+│ ├── test_identifier 
+│ └── test_identifier2 
+├── identifier.py 
+├── requirements.txt 
+└── test_identifier.py
 ```
 Após a execução dos testes, você verá os resultados no terminal.
 
